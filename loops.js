@@ -18,7 +18,7 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    console.log('e');
-  } while (maybeTrue());
+    array.unshift();
+  } while (array.length < 1 || maybeTrue());
   return array;
 }
