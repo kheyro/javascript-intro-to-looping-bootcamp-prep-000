@@ -16,6 +16,6 @@ function maybeTrue() {
 }
 function doWhileLoop(array) {
   do {
-    
+    console.log('e');
   } while (array.length > 0);
 }
